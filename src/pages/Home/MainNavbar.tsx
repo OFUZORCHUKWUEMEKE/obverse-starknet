@@ -30,12 +30,8 @@ const MainNavbar = () => {
         </a>
         <button
           className="flex text-[#131313] rounded-[45px] text-[10px] sm:text-[11px] md:text-[12px] font-medium px-7 sm:px-5 md:px-6 py-2.5 sm:py-3 hover:bg-[#ff8c63] transition-colors whitespace-nowrap"
-          // variant="normal"
-          // size="normal"
-        // onClick={() => popUp()
-
-        // }
-        style={{ backgroundColor: '#FF7849' }}
+          onClick={() => window.open('https://t.me/ObverseBot', '_blank')}
+          style={{ backgroundColor: '#FF7849' }}
         >
           Launch App
         </button>
