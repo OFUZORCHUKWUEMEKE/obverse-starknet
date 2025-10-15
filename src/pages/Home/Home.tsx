@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import  { useState, useEffect } from "react";
 
 // import { Ellipse, paymentDarkBg } from "../";
 // import { Button } from "./ui/Button";
@@ -10,8 +10,6 @@ import MainNavbar from "./MainNavbar";
 // import CardDemo from "@/Components/cards-demo-3.tsx";
 
 const Main = () => {
-  const [email, setEmail] = useState("");
-  const [isSubmitting, setIsSubmitting] = useState(false);
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
   const texts = ["Merchants", "Individuals", "Traders"];
 

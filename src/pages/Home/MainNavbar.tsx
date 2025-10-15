@@ -7,7 +7,7 @@ import { logoDark, logoTextDark } from "../../assets";
 // import { toast } from "sonner";
 
 const MainNavbar = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [menu, setMenuOpen] = useState(false);
   const closeMenu = () => setMenuOpen(false);
 
 
@@ -16,7 +16,7 @@ const MainNavbar = () => {
   //     position: "top-left",
   //   });
   // }
-
+console.log("menu", menu);
   return (
     <header className="w-full cursor-pointer bg-transparent sm:px-5">
 
