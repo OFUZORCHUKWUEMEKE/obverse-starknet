@@ -61,9 +61,9 @@ const Main = () => {
           </div> */}
 
           <div className="flex gap-3 sm:gap-4 flex-col items-center w-full">
-            <h1 className="font-onest sm:leading-tight leading-none font-bold text-[40px] sm:text-[35px] md:text-[38px] lg:text-[50px] max-w-full bg-gradient-to-r from-[#FFFFFF] to-[#FF7849] bg-clip-text text-transparent text-center px-4">
+            <h1 className="font-onest sm:leading-tight leading-none font-bold text-[30px] sm:text-[25px] md:text-[25px] lg:text-[40px] max-w-full bg-gradient-to-r from-[#FFFFFF] to-[#FF7849] bg-clip-text text-transparent text-center px-4">
               Accept Stablecoins on Starknet <br className="hidden sm:block" />
-              <span className="sm:hidden"> </span>via Telegram invoicing
+              <span className="sm:hidden"> </span>via Telegram with in-built invoicing
             </h1>
             <p className="text-[#FFFFFF] font-onest text-[14px] sm:text-[16px] md:text-[18px] max-w-[342px] sm:max-w-[450px] text-center px-4">
               Payment links, QR codes, and invoicing, all automated right within
